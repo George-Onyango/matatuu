@@ -3,38 +3,97 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Matatuu</title>
+        <title>Matatuu App</title>
+        <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="styles.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link href="https://esri.github.io/calcite-bootstrap/assets/css/calcite-bootstrap-open.min.css" rel="stylesheet">
+        <link href="css/grayscale.min.css" rel="stylesheet">
     </head>
-    <body>
-        <div id="header">
-            <div id="intro">
-                <p class="name">MATATUU</p>
-                <p>Best transport service Mtaa</p>
-                <p>We aim to change the public sector positively.</p>
-                <a href="#about" class="btn btn-circle page-scroll">
-                    <i class="fa fa-angle-double-down animated"></i>
-                </a>
+    <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+        <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+            <div class="container">
+               <div class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                  Menu <i class="fa fa-bars"></i>
+                  </button>
+                  
+               </div>
+                 
+               <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                  <ul class="nav navbar-nav">
+                     
+                     <li class="hidden">
+                        <a href="#page-top"></a>
+                     </li>
+                     <li>
+                        <a class="page-scroll" href="#about">About</a>
+                     </li>
+                     <li>
+                        <a class="page-scroll" href="#">Booking</a>
+                     </li>
+                     <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                     </li>
+                     <li>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdChA6WLSnIQNnJZsTBA9b2QXqmTmNkXCHDe6uUq8IH_OVVqw/viewform?usp=sf_link" target="_blank">Report Problem</a>
+                     </li>
+                  </ul>
+               </div>
+               
             </div>
-        </div>
+            
+         </nav>
 
-        <div class="pulse">
+         <header class="intro">
+            <div class="intro-body">
+               
+                  <div class="row">
+                     <div class="col-md-8 col-md-offset-2">
+                        <h1 class="brand-heading" style="font-size:45px">MATATUU</h1>
+                        <p>We aim to change the public trasport sector positively.</p>
+                        <p class="intro-text">Best transport servicrs mtaani
+                           <br>Created by Matatuu Team.
+                        </p>
+                        <a href="#about" class="btn btn-circle page-scroll">
+                        <i class="fa fa-angle-double-down animated"></i>
+                        </a>
+                     </div>
+                  </div>
+               
+            </div>
+         </header>
+
+
+        <!-- <div class="pulse">
             <p>
                You better dream like you have never seen obstacles. <br><br> ~ J. Cole
             </p>
-        </div>
+        </div> -->
         <section id="about" class="container content-section text-center">
             <div class="row">
                 <h2>ABOUT MATATUU</h2>
-                <p>MATATUU is a web app that avails information on;</p>
-                <p style="font-size: 20px;">
+                <p style="font-size: 20;">MATATUU is a web app that avails information on;</p>
+                <p style="font-size: 24px;">
                     MATATUU is a smart business application model targeting the public transport sector in Kenya. Primarily, the project shall focus on solving consumer-related issues facing the sector today. It's aim is to improve public transport services across the nation. 
                 </p>
                 
             </div>
         </section>
+        
+
+        <div class="viewers">
+            <div class="comment-section">
+                <a href="#">
+                    <p class="comments">
+                        Read about customers who have used our platform and are satisfied with our services
+                    </p>
+                </a>
+            </div>
+        </div>
+        
+
         <section id="contact" class="container content-section text-center">
             <div class="row">
                 <h2>
@@ -44,7 +103,7 @@
                     Feel free to email us to provide some feedback an our Website, give us suggestions for new features, or to just say hello!
                 </p>
                 <p>
-                    <a href="mailto:onyangogeorge954@gmail.com">feedback@Matatuu.com</a>
+                    <a href="mailto:muhiafelix02@gmail.com">feedback@Matatuu.com</a>
                 </p>
                 <ul class="list-inline banner-social-buttons">
                     <li>
@@ -57,6 +116,13 @@
                         <a href="" target="_blank" class="btn btn-default btn-lg"> <i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
                     </li>
                 </ul>
+                <footer>
+                    <div class="container text-center">
+                        <p>
+                            Copyright &copy; Matatuu 2022
+                        </p>
+                    </div>
+                </footer>
             </div>
         </section>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
