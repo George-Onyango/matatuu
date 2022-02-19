@@ -38,16 +38,20 @@
          </nav>
 
         <div class="container bookings booking-form">
-            <h2>Make Booking</h2>
-            <hr>
-            <form action="" >
-               Name <input type="text" name="name" id="fullname"> <br> <br>
-               ID number <input type="number" name="identification" id="id-num"> <br> <br>
-               Travel Date <input type="date" name="checkin" id="tdate"> <br> <br>
-               Customer No <input type="tel" name="phone" id="mobile-no"> <br> <br>
-               No of People <input type="number" name="" id=""> <br> <br>
-
-            </form>
+               <h2 class="book-title">Make Booking</h2>
+               <hr>
+               <form action="" method="get">
+                 <input type="text" name="name" id="fullname" placeholder="Customer Name" required>
+                  <br> <br>
+                 <input type="number" name="identification" id="id-num" placeholder="ID Number" required>
+                  <br> <br>
+                 <input type="date" name="checkin" id="tdate" placeholder="Travel Date" required>
+                  <br> <br>
+                 <input type="tel" name="phone" id="mobile-no" placeholder="Enter phone number" required>
+                  <br> <br>
+                 <input type="number" name="" id="no-people" placeholder="Enter number of people" required>
+                  <br> <br>
+               </form>
          </div>
       </body>
 </html>

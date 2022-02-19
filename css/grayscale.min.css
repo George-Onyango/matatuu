@@ -282,3 +282,21 @@
     #about {
         padding-bottom: 350px;
     }
+
+.bookings {
+    padding-top: 150px;
+}
+.book-title {
+    text-align: center;
+}
+#fullname,#id-num,
+#tdate,#mobile-no,
+#no-people {
+    color: black;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 15px;
+}
+form{
+    font-size: 20px;
+}
