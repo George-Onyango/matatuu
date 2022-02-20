@@ -217,7 +217,8 @@
         background-color:transparent
     }
     .btn-default:focus,.btn-default:hover{
-        border:1px solid #42DCA3;outline:0;
+        border:1px solid #42DCA3;
+        outline:0;
         color:#000;
         background-color:#42DCA3
     }
@@ -296,14 +297,20 @@
     padding: 10px;
     font-size: 18px;
     border-radius: 15px;
+    border: none;
+    border-style: groove;
 }
 form{
     font-size: 20px;
 }
 .bookings-form {
-    background-image: url(../assets/facts_buses.jpg);
+    background-color: #fff;
     padding-top: 20px;
     padding-left: 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 label {
     color: black;
@@ -311,4 +318,7 @@ label {
 #from-loc,#to-loc{
     color: black;
     padding-right: 20px;
+}
+.fulname {
+    padding-bottom: 10px;
 }

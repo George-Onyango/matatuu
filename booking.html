@@ -44,17 +44,26 @@
 
            <div class="bookings-form">
                <form action="" method="get">
-                  <input type="text" name="name" id="fullname" placeholder="Customer Name" required>
-                  <br> <br>
-                  <input type="number" name="identification" id="id-num" placeholder="ID Number" required>
-                  <br> <br>
-                  <input type="date" name="checkin" id="tdate" placeholder="Travel Date" required>
-                  <br> <br>
-                  <input type="tel" name="phone" id="mobile-no" placeholder="Enter phone number" required>
-                  <br> <br>
+                  <div class="fulname">
+                     <input type="text" name="name" id="fullname" placeholder="Customer Name" required>
+                  </div>
+                  
+                  <div class="id-details">
+                     <input type="number" name="identification" id="id-num" placeholder="ID Number" required>
+                  </div>
+                  
+                  <div class="travel-date">
+                     <input type="date" name="checkin" id="tdate" placeholder="Travel Date" required>
+                  </div>
+                  
+                  <div class="cell-no">
+                     <input type="tel" name="phone" id="mobile-no" placeholder="Enter phone number" required>
+                  </div>
+                  
                   <label for="location">From:</label>
                   <br>
                   <select id="from-loc">
+                     <option value="none" selected disabled hidden>Select a location</option>
                      <option value="Nairobi">Nairobi</option>
                      <option value="Naivasha">Naivasha</option>
                      <option value="Bondo">Bondo</option>
@@ -70,6 +79,7 @@
                   <label for="to-loc">To:</label>
                   <br>
                   <select id="to-loc">
+                     <option value="none" selected disabled hidden>Select a location</option>
                      <option value="Nairobi">Nairobi</option>
                      <option value="Naivasha">Naivasha</option>
                      <option value="Bondo">Bondo</option>
