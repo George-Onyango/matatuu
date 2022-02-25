@@ -371,7 +371,6 @@ label {
     padding-left: 50px;
 }
 .colors {
-    padding: 10px;
     font-size: 18px;
     color: black;
     display: flex;
@@ -379,4 +378,13 @@ label {
 }
 .local-card {
     height: 53.8vh;
+}
+.pickup-color {
+    padding-bottom: 20px;
+}
+.local-color {
+    padding-bottom: 20px;
+}
+.pick-btn, .local-btn {
+    padding: 3px 40px;
 }
