@@ -379,11 +379,9 @@ label {
 .local-card {
     height: 53.8vh;
 }
-.pickup-color {
+.pickup-color, .local-color  {
     padding-bottom: 20px;
-}
-.local-color {
-    padding-bottom: 20px;
+    
 }
 .pick-btn, .local-btn {
     padding: 3px 40px;
