@@ -372,7 +372,6 @@ label {
 }
 .colors {
     font-size: 18px;
-    color: black;
     display: flex;
     justify-content: center;
 }
@@ -381,8 +380,9 @@ label {
 }
 .pickup-color, .local-color  {
     padding-bottom: 20px;
-    
 }
 .pick-btn, .local-btn {
     padding: 3px 40px;
+    border-radius: 30px;
+    background-color: #3F4754;
 }
