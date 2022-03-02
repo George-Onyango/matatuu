@@ -25,7 +25,7 @@
                               <a class="page-scroll" href="../matatu/index.html">About</a>
                            </li>
                            <li>
-                              <a class="page-scroll" href="#">Booking</a>
+                              <a class="page-scroll" href="./index.html">Services</a>
                            </li>
                            <li>
                               <a class="page-scroll" href="#contact">Contact</a>
@@ -45,19 +45,27 @@
            <div class="bookings-form">
                <form action="" method="get">
                   <div class="fulname">
+                     <label for="fullname">Name</label>
+                     <br>
                      <input type="text" name="name" id="fullname" placeholder="Customer Name" required>
                   </div>
                   
-                  <div class="id-details">
-                     <input type="number" name="identification" id="id-num" placeholder="ID Number" required>
-                  </div>
-                  
                   <div class="travel-date">
+                     <label for="date">Travel Date</label>
+                     <br>
                      <input type="date" name="checkin" id="tdate" placeholder="Travel Date" required>
                   </div>
                   
                   <div class="cell-no">
+                     <label for="tnum">Mobile Number</label>
+                     <br>
                      <input type="tel" name="phone" id="mobile-no" placeholder="Enter phone number" required>
+                  </div>
+
+                  <div class="people">
+                     <label for="humans">No of People</label>
+                     <br>
+                     <input type="number" name="" id="no-people" placeholder="Passengers" required>
                   </div>
                   
                   <label for="location">From:</label>
@@ -92,8 +100,9 @@
                      <option value="homa">Homabay</option>
                   </select>
                   <br> <br>
-                  <input type="number" name="" id="no-people" placeholder="Passengers" required>
-                  <br> <br>
+                  <div class="submit-btn">
+                     <button type="submit">Book</button>
+                  </div>
                </form>
            </div>
                

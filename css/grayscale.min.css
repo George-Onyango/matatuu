@@ -302,15 +302,16 @@
 }
 form{
     font-size: 20px;
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    grid-gap: 10px;
 }
 .bookings-form {
     background-color: #fff;
     padding-top: 20px;
     padding-left: 20px;
     border-radius: 20px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+    padding-right: 20px;
 }
 label {
     color: black;
@@ -385,4 +386,16 @@ label {
     padding: 3px 40px;
     border-radius: 30px;
     background-color: #3F4754;
+}
+input {
+    width: 100%;
+}
+.submit-btn {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.submit-btn button{ 
+    padding: 10px;
+    background-color: hsl(0%,0%,0%/1);
+    color: black;
 }
