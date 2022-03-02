@@ -3,13 +3,13 @@
 $host= $_POST["localhost"];
 $dbUsername=$_POST["root"];
 $dbPassword=$_POST[""];
-$dbName= $_POST["registration"];
+$dbName= $_POST["createUser"];
 
 if(!empty($dbUsername) && !empty($dbPassword)){
 $host="localhost";
 $dbUsername="root";
 $dbPassword="";
-$dbName="registration";
+$dbName="createUser";
 $conn = new mysql_connect($host,$dbUsername,$dbPassword,$dbName);
 echo "Welcome";
 }
