@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,600&family=Roboto&family=Slabo+27px&display=swap');
+
 .card1 {
     padding: 10rem 0 0;
     max-width: 35ch;
@@ -12,6 +14,16 @@
         hsl(0, 0%, 0% / 1),
     );
 }
+.consumer {
+    text-align: center;
+    letter-spacing: 7px;  
+     font-family: 'Open Sans', sans-serif;
+
+    font-family: 'Roboto', sans-serif;
+
+    font-family: 'Slabo 27px', serif;
+
+}
 .card1-title::after {
     content: "";
     position: absolute;
@@ -19,8 +31,10 @@
     bottom: 0;
     height: 3px;
     width: 100%;
-    background: #0983;
+    background: rgba(27, 255, 103, 0.548);
 }
 .card1-title {
     position: relative;
+    width: max-content;
+    outline: 1px solid peru;
 }
