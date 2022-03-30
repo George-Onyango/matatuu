@@ -27,4 +27,8 @@ $(document).ready(function(){
             }
         }
     }
+
+    var customerName = "";
+    var mobileno = "";
+    
 })
