@@ -368,7 +368,7 @@ label {
     flex-wrap: wrap;
 }
 .pickup-spce {
-    padding-left: 500px;
+    padding-left: 600px;
 }
 .local-space {
     padding-left: 50px;
@@ -379,7 +379,7 @@ label {
     justify-content: center;
 }
 .local-card {
-    height: 53.8vh;
+    height: 49.8vh;
 }
 .pickup-color, .local-color  {
     padding-bottom: 20px;
