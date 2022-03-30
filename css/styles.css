@@ -4,6 +4,7 @@
     padding: 10rem 0 0;
     max-width: 35ch;
     background-size: cover;
+    color: white;
 }
 
 .card1-content {
@@ -16,6 +17,7 @@
 }
 .consumer {
     text-align: center;
+    color: white;
     letter-spacing: 7px;  
      font-family: 'Open Sans', sans-serif;
 
