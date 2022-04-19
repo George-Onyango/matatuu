@@ -8,7 +8,8 @@
 }
 
 .card1-content {
-    padding: 1.5em;
+    --padding: 1.5rem;
+    padding: var(--padding);
     background: linear-gradient(
         hsl(0, 0%, 0% / 0),
         hsl(20 0% 0% / 0.3) 20%,
@@ -29,14 +30,13 @@
 .card1-title::after {
     content: "";
     position: absolute;
-    /* left: 0; */
+    left: calc(var(--padding)*-1);
     bottom: 0;
     height: 3px;
-    width: 100%;
+    width: calc(100% + var(--padding));
     background: rgba(27, 255, 103, 0.548);
 }
 .card1-title {
     position: relative;
     width: max-content;
-    outline: 1px solid peru;
 }
