@@ -1,6 +1,7 @@
  */body,html{
      height:100%;
-     width:100%
+     width:100%;
+background-color:#000:
     }
  .navbar-custom{
      background-color:#000
@@ -11,7 +12,7 @@
  body{
      font-family:Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
      color:#fff;
-      background-color:black;
+      background-color:#000;
      webkit-tap-highlight-color:rgba(255,255,255,.2)
     }
     .btn,.navbar-custom,h1,h2,h3,h4,h5,h6{
