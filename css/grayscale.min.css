@@ -1,12 +1,13 @@
  */body,html{
      height:100%;
-     width:100%
+     width:100%;
     }
  .navbar-custom{
-     background-color:#000
+     background-color:#000;
     }
  .intro,body,html{
-     width:100%
+     width:100%;
+     background-color: #000;
     }
  body{
      font-family:Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -52,6 +53,7 @@
         margin-bottom:0;
         border-bottom:1px solid rgba(255,255,255,.3)
     }
+
     .navbar-custom .navbar-toggle{
         color:#fff;
         background-color:rgba(255,255,255,.2);
@@ -367,7 +369,7 @@ label {
     flex-wrap: wrap;
 }
 .pickup-spce {
-    padding-left: 500px;
+    padding-left: 600px;
 }
 .local-space {
     padding-left: 50px;
@@ -378,7 +380,7 @@ label {
     justify-content: center;
 }
 .local-card {
-    height: 53.8vh;
+    height: 49.8vh;
 }
 .pickup-color, .local-color  {
     padding-bottom: 20px;
